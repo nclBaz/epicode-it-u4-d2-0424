@@ -1,12 +1,10 @@
 package conditionals;
 
-import java.util.Scanner;
-
 public class Main {
 	public static void main(String[] args) {
 		// ----------------------------------------------------- IF-ELSE --------------------------------------------------
 		// if ("") System.out.println("La stringa è vuota"); <-- Non siamo in JS quindi non esiste il concetto di truthy & falsy (stringa vuota sarebbe falsy in JS)
-		if ("".isEmpty()) System.out.println("La stringa è vuota");
+/*		if ("".isEmpty()) System.out.println("La stringa è vuota");
 
 		int x = 1, y = 2, z = 3;
 
@@ -18,18 +16,18 @@ public class Main {
 
 		if (x > y) System.out.println("X è maggiore di Y");
 		else if (x == y) System.out.println("X è uguale a Y");
-		else System.out.println("X è minore di Y");
+		else System.out.println("X è minore di Y");*/
 
 		// ----------------------------------------------------- TERNARY --------------------------------------------------
-		String testo = x > y ? "X è maggiore di Y" : "X è minore o uguale a Y";
+/*		String testo = x > y ? "X è maggiore di Y" : "X è minore o uguale a Y";
 		System.out.println(testo);
 
 		int a = x > y ? (x > z ? x : z) : (y > z ? y : z);
-		System.out.println(a);
+		System.out.println(a);*/
 
 		// ----------------------------------------------------- SWITCH-CASE --------------------------------------------------
 
-		Scanner scanner = new Scanner(System.in);
+		/*		Scanner scanner = new Scanner(System.in);*/
 /*
 		System.out.println("Dammi il primo numero");
 		int num1 = Integer.parseInt(scanner.nextLine());*/
@@ -82,7 +80,7 @@ public class Main {
 		System.out.println("num1 è: " + num1); // 1000*/
 
 
-		System.out.println("Inserisci un numero da 1 a 7");
+	/*	System.out.println("Inserisci un numero da 1 a 7");
 		int num = Integer.parseInt(scanner.nextLine());
 
 		String giornoInLettere = switch (num) {
@@ -98,8 +96,7 @@ public class Main {
 
 		System.out.println("Il giorno inserito é: " + giornoInLettere);
 
-		scanner.close();
-
+		scanner.close();*/
 
 	}
 }
